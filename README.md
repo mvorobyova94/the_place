@@ -5,10 +5,10 @@ I designed it myself, using Figma and now I am working on making it work right :
 
 I used in my project:
 
-Photos
-https://unsplash.com/
-Icons
-https://lineicons.com/
-Fonts:
-https://fonts.google.com/specimen/Lora
-https://fonts.google.com/specimen/Nunito+Sans
+Photos<br>
+https://unsplash.com/<br>
+Icons<br>
+https://lineicons.com/<br>
+Fonts:<br>
+https://fonts.google.com/specimen/Lora<br>
+https://fonts.google.com/specimen/Nunito+Sans<br>
