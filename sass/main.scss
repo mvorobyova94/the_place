@@ -218,20 +218,17 @@ h1 {
         line-height: 25px;
         text-align: right;
         color: rgba(0, 0, 0, 0.58);
-
-
       }
 
       &:before {
-        content: url('/img/quotation.svg');
+        content: url("/img/quotation.svg");
         position: absolute;
-width: 39px;
-height: 52px;
-left: 60px;
-top: 0;
-color: rgba(25, 37, 14, 0.7);
+        width: 39px;
+        height: 52px;
+        left: 60px;
+        top: 0;
+        color: rgba(25, 37, 14, 0.7);
       }
-
     }
   }
 }
