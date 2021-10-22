@@ -122,3 +122,116 @@ h1 {
     flex-direction: row;
   }
 }
+
+.container_icons {
+  width: 100vw;
+  padding-top: 100px;
+  background: $color-icons-bg;
+  text-align: center;
+
+  h2 {
+    font-weight: 200;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .icons_block {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 50px;
+
+    .icon {
+      width: 160px;
+      height: 250px;
+      text-align: center;
+      color: $color-icons;
+
+      &_pic > i {
+        font-size: 50px;
+        margin-bottom: 33px;
+      }
+
+      &_text {
+        font-size: 16px;
+        line-height: 27px;
+        font-weight: 100;
+      }
+    }
+  }
+}
+
+.reviews {
+  padding: $side-pad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-image: url("/img/review-bg.jpg");
+  @include background-image;
+
+  .review {
+    width: 345px;
+    height: 416px;
+    background-color: $color-review-bg;
+
+    &_header {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 40px 20px;
+
+      .person_pic > img {
+        filter: drop-shadow(0px 0px 24px rgba(0, 0, 0, 0.25));
+      }
+
+      .person_info {
+        > span {
+          display: block;
+          color: $color-review-green;
+        }
+
+        .name {
+          font-size: 24px;
+        }
+
+        .subname {
+          font-weight: 200;
+          font-size: 16px;
+        }
+      }
+    }
+
+    &_body {
+      position: relative;
+
+      > p {
+        display: block;
+        position: absolute;
+        right: 50px;
+        text-align: right;
+        width: 50%;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: right;
+        color: rgba(0, 0, 0, 0.58);
+
+
+      }
+
+      &:before {
+        content: url('/img/quotation.svg');
+        position: absolute;
+width: 39px;
+height: 52px;
+left: 60px;
+top: 0;
+color: rgba(25, 37, 14, 0.7);
+      }
+
+    }
+  }
+}
